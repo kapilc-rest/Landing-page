@@ -28,6 +28,18 @@ body {
     font-weight: 900;
 }
 
+.hero-section .image {
+    display: flex;
+    flex: 1;
+}
+
+.placeholder {
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #e5e7eb;
+}
+
 .subtext, .links {
     font-size: 18px;
     color: #e5e7eb;
@@ -76,5 +88,10 @@ a {
     color: #e5e7e8;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
