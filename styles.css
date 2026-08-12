@@ -39,6 +39,12 @@ body {
     color: #F9FAF8;
 }
 
+.informations .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 .links {
     display: flex;
     flex-direction: row;
