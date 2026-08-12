@@ -24,6 +24,11 @@ body {
     font-weight: 900;
 }
 
+.subtext, .links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .header, .hero-section, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
