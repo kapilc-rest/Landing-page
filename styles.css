@@ -45,6 +45,14 @@ body {
     font-weight: 900;
 }
 
+.quotes .quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: 300;
+    font-style: italic;
+}
+
 .links {
     display: flex;
     flex-direction: row;
