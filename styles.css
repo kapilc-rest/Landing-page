@@ -61,6 +61,7 @@ body {
 
 .call-box {
     display: flex;
+    flex: 1;
 }
 
 .header, .hero-section, .footer {
