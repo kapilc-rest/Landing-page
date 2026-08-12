@@ -4,6 +4,7 @@ body {
     height: 100vh;
     margin: 0;
     flex: 1;
+    font-style: Roboto;
 }
 
 .header {
@@ -11,20 +12,20 @@ body {
     justify-content: space-between;
 }
 
+.logo {
+    font-size: 24px;
+}
+
 .header, .head-section, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
-}
-
-.header, .head-section, .informations, .quotes, .call-box, .footer {
-    justify-content: center;
-    align-items: center;
 }
 
 .links {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    gap: 12px;
 }
 
 
