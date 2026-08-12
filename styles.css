@@ -18,7 +18,13 @@ body {
     color: #F9FAF8;
 }
 
-.header, .head-section, .footer {
+.hero-section .text .main-title {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header, .hero-section, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
 }
