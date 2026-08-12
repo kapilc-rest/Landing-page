@@ -54,14 +54,22 @@ body {
 }
 
 
-.call-box, button {
+.call-box-content, button {
     background-color: #3882F6;
     color: #e5e7e8;
 }
 
 .call-box {
     display: flex;
-    flex: 1;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-box-content {
+    display: flex;
+    padding: 24px 36px;
+    justify-content: space-between;
 }
 
 .header, .hero-section, .footer {
