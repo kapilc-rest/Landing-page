@@ -7,11 +7,6 @@ body {
     flex: 1;
 }
 
-.head-section {
-    display: flex;
-    flex-direction: column;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -22,6 +17,7 @@ body {
     flex-direction: row;
     list-style-type: none;
 }
+
 
 a {
     text-decoration: none;
