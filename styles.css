@@ -29,6 +29,11 @@ body {
     color: #e5e7eb;
 }
 
+.call-box, button {
+    background-color: #3882F6;
+    color: #e5e7e8;
+}
+
 .header, .hero-section, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
