@@ -61,15 +61,27 @@ body {
 
 .call-box {
     display: flex;
-    flex: 2;
+    flex: 4;
     justify-content: center;
     align-items: center;
 }
 
 .call-box-content {
     display: flex;
-    padding: 24px 36px;
+    padding: 24px 48px;
     justify-content: space-between;
+    width: 700px;
+}
+
+.call-header {
+    color: #e5e7e8;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.call-subtext {
+    font-size: 14px;
+    color: #e5e7e8;
 }
 
 .header, .hero-section, .footer {
