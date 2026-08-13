@@ -37,10 +37,10 @@ ul {
     /* Removes the bullet */
     list-style-type: none;
     display: flex;
-    width : 400px;
+    width : 410px;
     padding: 0;
     margin: 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 a {
@@ -85,5 +85,11 @@ a, .subtext {
     line-height: 1.2; /* used to control space between wrapped lines of text within the same element */
 }
 
-
- 
+button {
+    background-color: #3882F6;
+    border: none;
+    padding: 6px 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-top: 4px;
+}
