@@ -10,10 +10,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#header-section, #hero-section {
+#header-section, #hero-section, #informations {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#header-section, #hero-section {
     background-color: #1F2937;
 }
 
@@ -89,4 +92,43 @@ button {
     color: #F9FAF8;
     font-weight: bolder;
     margin-top: 4px; /*aligns button with subtext*/
+}
+
+#informations {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+#informations .title {
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 28px 0;
+}
+
+.images-with-caption {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px; /*align caption with box */
+}
+
+.img .box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+}
+
+.caption {
+    text-align: center;
+    color: #4B5563;
+    font-size: 17px;
 }
