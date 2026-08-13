@@ -7,5 +7,41 @@ body {
 }
 
 #header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
+    height: 50px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    /* Removes the bullet */
+    list-style-type: none;
+    display: flex;
+    width : 400px;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+a {
+    /* Removes the underscore */
+    text-decoration: none;
+    /*To change text-color, we use color in a instead of ul or li, because the color of a is set by default which has more specificity than color inherited by setting color in ul or li, thus for links we need to change the color directly in a */
+    color: #F9FAF8;
+}
+
+
+
