@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,15 +10,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#header-section {
+#header-section, #hero-section {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+}
+
+#header-section {
     height: 50px;
 }
 
-.header {
+.header, .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,9 +46,44 @@ ul {
 a {
     /* Removes the underscore */
     text-decoration: none;
+}
+
+a, .subtext {
+    font-size: 18px;
     /*To change text-color, we use color in a instead of ul or li, because the color of a is set by default which has more specificity than color inherited by setting color in ul or li, thus for links we need to change the color directly in a */
     color: #F9FAF8;
+    font-weight: lighter;
+}
+
+.subtext {
+    margin: 0;
+}
+
+#hero-section {
+    height: 400px;
 }
 
 
+.hero .text, .hero .image {
+    width: 440px;
+}
 
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 440px; 
+    height: 200px;
+    color: #F9FAF8;
+    background-color: #9CA3AF;
+}
+
+.main-title {
+    font-size: 44px;
+    color: #F9FAF8;
+    font-weight: 900;
+    line-height: 1.2; /* used to control space between wrapped lines of text within the same element */
+}
+
+
+ 
