@@ -43,12 +43,9 @@ ul {
     justify-content: space-between;
 }
 
-a {
+a, .subtext {
     /* Removes the underscore */
     text-decoration: none;
-}
-
-a, .subtext {
     font-size: 18px;
     /*To change text-color, we use color in a instead of ul or li, because the color of a is set by default which has more specificity than color inherited by setting color in ul or li, thus for links we need to change the color directly in a */
     color: #F9FAF8;
@@ -60,7 +57,7 @@ a, .subtext {
 }
 
 #hero-section {
-    height: 400px;
+    padding: 100px 0;
 }
 
 
@@ -91,5 +88,5 @@ button {
     padding: 6px 24px;
     color: #F9FAF8;
     font-weight: bolder;
-    margin-top: 4px;
+    margin-top: 4px; /*aligns button with subtext*/
 }
